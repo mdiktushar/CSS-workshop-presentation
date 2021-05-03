@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+
+    <style>
+        body{
+            background-color: rgb(219, 219, 219);
+        }
+        h1{
+            color: blue;
+        }
+        div p{
+            font-family: 'Courier New', Courier, monospace;
+        }
+
+        p{
+            color: brown;
+        }
+
+        @media screen and (max-width: 700px) {
+            body{
+                background-color: cadetblue;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            div{
+                background-color: cornflowerblue;
+            }
+            div p{
+                font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                color: crimson;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div>
+        <h1>Ishrifil Hossain</h1>
+        <p>
+            Ishrifils friends call him ROMEO.
+
+        </p>
+    </div>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi possimus dolorem accusantium velit, dolorum rem eos iste? Nobis, aliquid beatae. Et voluptate, obcaecati delectus quia at pariatur sequi quas ipsam.
+    </p>
+
+</body>
+</html>
